@@ -13,7 +13,7 @@ export const API_CONFIG: ApiConfig = {
       description: "Generate a PDF from HTML or Markdown content",
       mimeType: "application/pdf",
       toolName: "document_generate_pdf",
-      toolDescription: "Use this when you need to create a PDF document from HTML or Markdown content. Supports custom page size, margins, headers, footers. Returns binary PDF. Do NOT use for converting existing web pages to PDF — use webpage_to_pdf instead. Ideal for generating reports, invoices, proposals, contracts, or any formatted document from data.",
+      toolDescription: "Use this when you need to create a PDF document from HTML or Markdown content. Supports custom page size, margins, headers, footers. Returns binary PDF. Ideal for generating reports, invoices, proposals, contracts, or any formatted document from data. Do NOT use for web page capture — use webpage_to_pdf. Do NOT use for screenshots — use capture_screenshot.",
       inputSchema: {
         type: "object",
         properties: {
