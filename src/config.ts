@@ -50,6 +50,10 @@ Do NOT use for capturing a live web page as PDF -- use webpage_to_pdf instead. D
         },
         required: ["content"],
       },
+      outputSchema: {
+          "type": "string",
+          "description": "Binary PDF document returned with Content-Type application/pdf"
+        },
     },
   ],
 };
