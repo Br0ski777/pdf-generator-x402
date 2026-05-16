@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "sse",
-      "url": "https://pdf-generator-x402-production.up.railway.app/mcp"
+      "url": "https://pdf-generator.api.klymax402.com/mcp"
     }
   ]
 }
