@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `document_generate_pdf` | POST | `/api/generate` | $0.008 | Generate a PDF from HTML or Markdown content |
+| `document_generate_pdf` | POST | `/api/generate` | $0.015 | Generate a PDF from HTML or Markdown content |
 
 ### `document_generate_pdf`
 
