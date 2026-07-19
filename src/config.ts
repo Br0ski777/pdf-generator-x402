@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/generate",
-      price: "$0.008",
+      price: "$0.015",
       description: "Generate a PDF from HTML or Markdown content",
       mimeType: "application/pdf",
       toolName: "document_generate_pdf",
